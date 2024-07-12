@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+        h1{
+            color: lime;
+        }
+        h1:hover{
+            color: teal;
+            background-color: aqua;
+        }
+        input:focus{
+            color: red;
+            /*padding-left: 20px;*/
+            outline: 0;
+            border: 2px solid red;
+        }
+        a:visited{
+            color: grey;
+        }
+        /*li:first-child{
+            color: cyan;
+        }*/
+        li:nth-child(2n+1){
+            color: royalblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>My heading</h1>
+     <input type="text">
+     <br>
+     <input type="text">
+     <br>
+     <input type="text">
+     <br>
+     <a href="https://www.google.com">Google</a>
+     <a href="https://www.britannica.com/place/Madagascar">Madagascar</a>
+     <ul>
+        <li>Apple</li>
+        <li>Banana</li>
+        <li>Guava</li>
+        <li>Pineapple</li>
+        <li>Watermelon</li>
+        <li>Mango</li>
+        <li>Lichi</li>
+        <li>Orange</li>
+     </ul>
+</body>
+</html>
